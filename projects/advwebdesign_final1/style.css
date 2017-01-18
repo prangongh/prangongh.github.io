@@ -1,0 +1,244 @@
+/* Universal Selector */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Sets the background image */
+body {
+	background-image: url(images/background.png);
+	background-repeat: repeat;
+	margin: 0px; 
+}
+
+/* Creates the width of the container and centers it */
+#container {
+	width: 960px;
+	margin: 0px auto;  
+}
+
+/* Styling the header */
+#header {
+	height: 110px; 
+	background-color: #006633;
+	color: #FFFFFF;
+	font-family: 'Abril Fatface', cursive, serif;
+	letter-spacing: 2px;    
+	margin: 0px auto;
+}
+
+h1 {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 40px;
+}
+
+/* Styling the Navigation and Making it look a bit cooler */
+#nav {
+	height: 40px;
+	text-align: center;  
+	background-color: #CC0000;
+	color: #FFFFFF; 
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+	margin-left: 90px;
+}
+
+li {
+	float: left;
+	margin-right: 50px; 
+}
+
+/* Styling the Links in the Navigations */
+#nav a:link, #nav a:visited {
+    display: block;
+    background-color: #CC0000;
+	color: #FFFFFF;
+    text-decoration: none;
+    font-size: 22px;
+	padding: 5px;
+}
+
+#nav a:hover, #nav a:active {
+    display: block;
+    background-color: #D63232;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* On to the content, which has a ton of divs and other stuff */
+#content {
+	padding: 20px;
+	background-color: #CC6600;
+}
+
+/* Standard styling for all text inside the <p> tags */
+p {
+	color: #330000;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+/* Styling the Intro portion of index.html */
+#welcome img {
+	float: left;
+	margin: 0px 20px 20px 0px;	
+}
+
+#welcome h2 {
+	float: left;
+	color: #FFFFFF;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	font-size: 26px;
+}
+
+/* Styling the bottom images in index.html to link to the rest of the website */
+.img_margin {
+	margin-right: 15px;	
+}
+
+.img_links {
+	float: center;
+}
+
+.img_links:hover { /* when you hover of the images, they become more transparent and theres a shadow around the image */
+	opacity: 0.7;
+	box-shadow: 0 1px 8px #330000;
+}
+
+.clear_float { /* Clearing away floatation devices all throughout the day */
+	clear: both;
+}
+
+/* Styling the links to other pages (mainly wikipedia) that are within the text */
+p a:link, p a:visited {
+	color: #330000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+p a:hover, p a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Standard Template for styling the pages of the site */
+.standard h2 {
+	float: left;
+	color: #FFFFFF;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.standard img {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+
+.standard h3 {
+	float: left;
+	color: #FFFFFF;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	font-size: 26px;
+}
+
+/* Styling the Recipe section (image, paragraph, table, ordered list) */
+#recipe {
+	overflow: auto;
+}
+
+#recipe h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	font-size: 32px;
+	margin: 10px 0px 10px 0px;
+}
+
+#recipe img {
+	float: left;
+	margin-right: 20px;
+}
+
+#recipe h3 {
+	float: left;
+	color: #FFFFFF;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	font-size: 26px;
+}
+
+#recipe h4 {
+	float: left;
+	color: #FFFFFF;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	font-size: 22px;
+}
+
+#recipe table {
+	width: 450px;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+#recipe table, th, td { /* Sets a solid dark brown border of 1px */
+	border: 1px #330000 solid;
+}
+
+#recipe th {
+	background-color: #CC0000;
+	color: #FFFFFF;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#recipe td {
+	color: #330000;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+}
+
+#recipe tr:hover { /* Styling the table rows when you hover over them */
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+
+#recipe ol {
+	margin-left: 20px;
+}
+
+#recipe li{
+	color: #330000;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+}
+
+/* Moving the directions for the recipe to one side and giving it a width. I still could not figure why it 
+continued to give me a weird 50px space between my content's padding and the ordered list. */
+#recipe_instruct {
+	float: right;
+	width: 470px;
+}
+
+/* Footer!!! */
+#footer {
+	height: 30px;
+	background-color: #CC0000;
+	color: #FFFFFF;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-align: center;
+}
+
+/* I hope you enjoyed that read. -Prangon Ghose */
