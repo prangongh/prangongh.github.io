@@ -42,12 +42,12 @@ h1 {
 	font-family: 'Open Sans', Arial, sans-serif;
 }
 
-ul {
+#nav ul {
     list-style-type: none;
-	margin-left: 90px;
+    margin-left: 90px;
 }
 
-li {
+#nav li {
 	float: left;
 	margin-right: 50px; 
 }
