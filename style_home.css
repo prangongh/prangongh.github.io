@@ -1,0 +1,324 @@
+/* Universal Selector */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    background-color: #A7CEE8;
+    background-blend-mode: multiply;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+}
+
+.parallax { 
+    background-image: url(images/background.jpg);
+    height: 100%;
+    /* Creates the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::selection {
+    background-color: silver;
+}
+
+::-moz-selection {
+  background-color: silver;
+}
+
+.clear_float {
+    clear: both;
+}
+
+#logo {
+    float: left;
+    margin-left: 50px;
+}
+
+#logo img {
+    height: 100%;
+    width: 150px;
+    opacity: 0.92;
+}
+
+#logo img:link, #logo img:visited {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#logo img:hover {
+    opacity: 1;
+}
+
+#nav {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+#nav ul {
+    float: right;
+    margin: 0px 50px 10px 0px;
+    list-style-type: none;
+}
+
+#nav li {
+    float: right;
+    margin-left: 30px;
+}
+
+#nav a:link, #nav a:visited {
+    display: block;
+    text-decoration: none;
+	color: #FFFFFF;
+    padding: 5px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#nav a:hover, #nav a:active {
+    display: block;
+    background-color: #FFFFFF;
+    color: #1F618D;
+    text-decoration: none;
+    transition-delay: -1s;
+    -webkit-transition-delay: -1s;
+    -moz-transition-delay: -1s;
+    -o-transition-delay: -1s;
+    transition-duration: 3s;
+    -webkit-transition-duration: 3s;
+    -moz-transition-duration: 3s;
+    -o-transition-duration: 3s;
+}
+
+.dropdown {
+    z-index: -1;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+	position: absolute; 
+	top: 50px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: inline-block;
+}
+	
+/* First Tier Dropdown */
+.dropdown-content li {
+	width: 190px;
+    text-align: left;
+	float: none;
+	display: list-item;
+	position: relative;
+	margin: 0px !important;
+}
+
+#header {
+    text-align: center;
+    margin: 14% 5%;
+}
+
+#header h1 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+#header h2 {
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+#header h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+section {
+    padding: 20px;
+}
+
+#content p {
+    width: 70% !important;
+    margin: 15px auto !important;
+}
+
+#about {
+    height: 100%;
+    width: 100%;
+    margin-top: 300px;
+    padding: 20px 0px 30px 0px;
+    background-color: #1F618D;
+}
+
+#about h2 {
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 34px;
+    color: #FFFFFF;
+}
+
+#about p {
+    margin: 0px 30px 0px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 1.6em;
+}
+
+#about h5 {
+    width: 100px;
+    text-align: center;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+#about a:link, #about a:visited {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#about a:hover, #about a:active {
+    color: #D3D3D3;
+}
+
+.temp {
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px 30px 0px;
+}
+
+.temp h2 {
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 34px;
+}
+
+.temp p {
+    margin: 0px 30px 20px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.temp h3 {
+    width: 220px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.temp a:link, .temp a:visited {
+    display: block;
+    text-decoration: none;
+    border: 2px solid #104A71;
+    color: #1F618D;
+    padding: 5px 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.temp a:hover, .temp a:active {
+    display: block;
+    text-decoration: none;
+    background-color: #104A71;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    transition-delay: -1s;
+    -webkit-transition-delay: -1s;
+    -moz-transition-delay: -1s;
+    -o-transition-delay: -1s;
+    transition-duration: 3s;
+    -webkit-transition-duration: 3s;
+    -moz-transition-duration: 3s;
+    -o-transition-duration: 3s;
+}
+
+.color1 {
+    background-color: #FFFFFF;
+    color: #1F618D;
+    opacity: 0.9;
+}
+
+.color2 {
+    background-color: #1F618D;
+    color: #FFFFFF;
+}
+
+#footer {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #1F618D;
+}
+
+#footer ul {
+    padding: 10px 5px 5px 5px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#footer li {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+#footer a:link, #footer a:visited {
+    display: block;
+    text-decoration: none;
+    color: #1F618D;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#footer a:hover, #footer a:active {
+    display: block;
+    text-decoration: none;
+    color: #3995D3;
+}
+
+#footer h3 {
+    padding: 5px 0px 10px 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
