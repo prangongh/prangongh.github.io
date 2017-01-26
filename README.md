@@ -1,1 +1,1 @@
-This is in a work in progress personal website.
+This is in a work in progress website.
