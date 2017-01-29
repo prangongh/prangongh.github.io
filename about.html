@@ -20,6 +20,31 @@
 
             <!--Google Fonts-->
             <link href="https://fonts.googleapis.com/css?family=Arsenal:700|Open+Sans|Roboto" rel="stylesheet">
+		
+	    <!-- jQuery library (served from Google) -->
+            <script
+              src="https://code.jquery.com/jquery-1.8.2.min.js"
+              integrity="sha256-9VTS8JJyxvcUR+v+RTLTsd0ZWbzmafmlzMmeZO9RFyk="
+              crossorigin="anonymous"></script>
+            
+            <!-- bxSlider Javascript file -->
+            <script src="../jquery.bxslider.min.js"></script>
+            
+            <!-- bxSlider CSS file -->
+            <link href="../jquery.bxslider.css" rel="stylesheet" />
+
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.bxslider').bxSlider({
+                        auto: true,
+                        mode: 'fade',
+                        captions: true,
+                        randomStart: true,
+                        autoHover: true,
+                });
+                    
+                });
+            </script>
         
         </head>
 
@@ -54,9 +79,10 @@
                 <div class="clear_float"></div>
 
                 <div id="content">
-                    <div class="img-changer">
-                        <img src="../images/image1.jpg" alt="Image 1" />
-                    </div>
+                    <ul class="bxslider">
+                        <li><img src="images/pic1.jpg" title="random image"/></li>
+                        <li><img src="images/pic2.jpg" title="more random image"/></li>
+                    </ul>
 
                     <section class="temp">
                         <h2>About the Program</h2>
