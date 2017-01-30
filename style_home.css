@@ -123,11 +123,15 @@ body {
 /* First Tier Dropdown */
 .dropdown-content li {
 	width: 190px;
-    text-align: left;
+        text-align: left;
 	float: none;
 	display: list-item;
 	position: relative;
 	margin: 0px !important;
+}
+
+.sec-dropdown li {
+    width: 320px !important;
 }
 
 #header {
@@ -145,58 +149,13 @@ section {
     padding: 20px;
 }
 
+#content {
+    margin-top: 25%;
+}
+
 #content p {
     width: 70% !important;
     margin: 15px auto !important;
-}
-
-#about {
-    height: 100%;
-    width: 100%;
-    margin-top: 25%;
-    padding: 20px 0px 30px 0px;
-    background-color: #1F618D;
-}
-
-#about h2 {
-    text-align: center;
-    margin: 20px 0px 30px 0px;
-    font-family: 'Arsenal', sans-serif;
-    font-size: 34px;
-    color: #FFFFFF;
-}
-
-#about p {
-    margin: 0px 30px 0px 30px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #FFFFFF;
-    line-height: 1.6em;
-}
-
-#about h5 {
-    width: 8%;
-    text-align: center;
-    margin: 0px auto;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    color: #FFFFFF;
-}
-
-#about a:link, #about a:visited {
-    display: block;
-    color: #FFFFFF;
-    text-decoration: none;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
-    -webkit-transition: all 0.5s ease-in-out;
-}
-
-#about a:hover, #about a:active {
-    color: #D3D3D3;
 }
 
 .temp {
@@ -266,6 +225,16 @@ section {
 .color2 {
     background-color: #1F618D;
     color: #FFFFFF;
+}
+
+.color2 a:link, .color2 a:visited{
+    border: 2px solid #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+
+.color2 a:hover, .color2 a:active {
+    background-color: #FFFFFF !important;
+    color: #104A71 !important;
 }
 
 #footer {
