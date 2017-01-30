@@ -121,12 +121,16 @@ h1 {
 	
 /* First Tier Dropdown */
 .dropdown-content li {
-	width: 190px;
-    text-align: left;
+	width: 140px;
+        text-align: left;
 	float: none;
 	display: list-item;
 	position: relative;
-	margin: 0px !important;
+	margin: 0px 50px 0px 0px !important;
+}
+
+.sec-dropdown li {
+    margin: 0px 180px 0px 0px !important;
 }
 
 .dropdown-content a {
