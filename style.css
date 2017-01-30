@@ -110,8 +110,9 @@ h1 {
 
 .dropdown-content {
     display: none;
-	position: absolute; 
-	top: 17.5%;
+    position: absolute; 
+    top: 17.5%;
+    z-index: 9999;
 }
 
 .dropdown:hover .dropdown-content {
