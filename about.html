@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <html>
+        <head lang="en">
+            
+            <meta charset="UTF-8">
+            <meta name="description" content="Stuyvesant Alumni Mentoring Program website">
+            <meta name="keywords" content="Stuyvesant High School, Alumni Mentoring Program">
+            <meta name="author" content="Stuyvesant Alumni Mentoring Program">
+
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="HandheldFriendly" content="True">
+		    <meta name="MobileOptimized" content="320">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+            <title>
+                About | Stuyvesant Alumni Mentoring Program
+            </title>
+
+            <link rel="icon" type="image/jpeg" href="images/icon.jpg">
+
+            <link rel="stylesheet" type="text/css" href="style.css">
+
+            <!--Google Fonts-->
+            <link href="https://fonts.googleapis.com/css?family=Arsenal:700|Open+Sans|Roboto" rel="stylesheet">
+            
+            <!-- jQuery library (served from Google) -->
+            <script
+              src="https://code.jquery.com/jquery-1.8.2.min.js"
+              integrity="sha256-9VTS8JJyxvcUR+v+RTLTsd0ZWbzmafmlzMmeZO9RFyk="
+              crossorigin="anonymous"></script>
+            
+            <!-- bxSlider Javascript file -->
+            <script src="jquery.bxslider.min.js"></script>
+            
+            <!-- bxSlider CSS file -->
+            <link href="jquery.bxslider.css" rel="stylesheet" />
+
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.bxslider').bxSlider({
+                        auto: true,
+                        mode: 'fade',
+                        captions: true,
+                        randomStart: true,
+                        autoHover: true,
+                });
+                    
+                });
+            </script>
+
+            <!--Link JQuery (1.7.1 or higher)-->
+            <script type="text/javascript" src="jquery.min.js"></script>
+
+        </head>
+
+        <body> 
+            <div id="container">
+
+                <div id="header">
+                    <div id="logo">
+                        <a href="index.html"><img src="images/stuy_alumni-logo.jpg" alt="Stuy Alumni Logo" /></a>
+                    </div> <!--End of Logo-->
+
+                    <div id="nav">
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li class="dropdown"><a href="#">Login</a>
+						    <div class="dropdown-content">
+                                <ul>
+                                    <li><a href="#">Mentor</a></li>
+                                    <li><a href="#">Mentee</a></li>
+                                    <li><a href="#">Mentor Leader</a></li>
+                                    <li><a href="#">Program Lead</a></li>
+                                </ul>                               
+                            </div>
+                            <li class="dropdown"><a href="#">Participate</a>
+						    <div class="dropdown-content sec-dropdown">
+                                <ul>
+                                    <li><a href="#">Be a Mentor!</a></li>
+                                    <li><a href="#">Be a Mentee!</a></li>
+                                </ul>                               
+                            </div>
+                            </li> <!--End of Second Dropdown-->
+                            <li><a class="current" href="about.html">About</a></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>       
+
+                        <form> <!--Dropdown menu for mobile, etc.-->
+                            <select onchange="window.location.assign(this.options[this.selectedIndex].value)"> 
+                                    <option value="index.html">Home</option> 
+                                    <option value="" selected="selected">About</option> 
+                                    <option value="#">Be a Mentor!</option> 
+                                    <option value="#">Be a Mentee!</option> 
+                                    <option value="#">Mentor Login</option> 
+                                    <option value="#">Mentee Login</option> 
+                                    <option value="#">Mentor Leader Login</option> 
+                                    <option value="#">Program Lead Login</option> 
+                                    <option value="#">Contact Us</option> 
+                            </select>
+                        </form>         
+                    </div> <!--End of Nav-->
+
+                </div> <!--End of Header-->
+
+                <div class="clear_float"></div>
+
+                <div id="content">
+                    <div id="bkground">
+                        <ul class="bxslider">
+                            <li><img src="images/pic1.jpg" title="[caption]"/></li>
+                            <li><img src="images/pic2.jpg" title="[more caption]"/></li>
+                            <li><img src="images/pic3.jpg" title="[caption galore]"/></li>
+                        </ul>
+                    </div>
+
+                    <section class="temp color1">
+                        <h2>About the Program</h2>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                   
+                    <div class="belinks">
+                        <ul>
+                            <li><a href="#">Learn How You Can Become A Mentor!</a></li>
+                            <li><a href="#">Learn How You Can Become A Mentee!</a></li>
+                        </ul>
+                    </div>
+
+                    </section>               
+                </div> <!--End of Content-->
+
+                <div id="footer">
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="http://www.stuyalumni.org/donate/" target="_blank">Donate</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <h3>Copyright &copy; 2017 Stuyvesant High School Alumni Association, Inc. All rights reserved.</h3>
+                </div> <!--End of Footer-->
+
+            </div> <!--End of Container-->
+        </body>
+    </html>
