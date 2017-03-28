@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::selection {
+    background-color: silver;
+}   
+
+::-moz-selection {
+  background-color: silver;
+}
+
+body {  
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ),
+            url("../img/background.jpg") no-repeat center center fixed;
+}
+
+.clear_float {
+    clear: both;
+}
+
+#logo h4 {
+    float: left;
+    margin: 0px 0px 0px 2em;
+    position: absolute;
+    font-family: 'Poiret One', serif;
+    font-size: 1.9em;
+    background-color: #000;
+}
+
+#logo a:link, #logo a:visited {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.2em;
+    opacity: 0.7;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+#logo a:hover, #logo a:active {
+    display: block;
+    opacity: 1;
+    text-decoration: none;
+    transition-delay: -0.5s;
+    -webkit-transition-delay: -0.5s;
+    -moz-transition-delay: -0.5s;
+    -o-transition-delay: -0.5s;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1em 2em 0em 0em;
+}
+
+nav li {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin: 0em 0.5em 0em 0.8em;
+    padding: 5px;
+}
+
+.current {
+    color: silver !important;
+}
+
+nav a:link, nav a:visited {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+nav a:hover, nav a:active {
+    display: block;
+    color: silver;
+    text-decoration: none;
+    transition-delay: -0.5s;
+    -webkit-transition-delay: -0.5s;
+    -moz-transition-delay: -0.5s;
+    -o-transition-delay: -0.5s;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+
+header {
+    margin: 4em auto 7em auto;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+}
+
+header hr {
+    width: 200px;
+    margin: 1em auto;
+}
+
+section {
+    padding: 4em 8em;
+    background: rgba(255,255,255,0.8);
+    position: absolute;
+    top: 40vh;
+    text-align: justify;
+}
+
+section h2 {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+}
+
+section img {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-left: 24em; 
+}
