@@ -1,1 +1,3 @@
-This is in a work in progress website.
+Hi! This is my personal website. Feel free to look through. 
+
+Domain: holyrouge.github.io
