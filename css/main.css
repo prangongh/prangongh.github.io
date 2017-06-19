@@ -194,7 +194,7 @@ h4 a:hover, h4 a:active {
 }
 
 .stony a:link, .stony a:visited {
-	color: red !important;
+	color: #e50000 !important;
 }
 
 .stony a:hover, .stony a:active {
