@@ -168,6 +168,56 @@ h4 a:hover, h4 a:active {
     -o-transition-duration: 1s;
 }
 
+.arrowNavDown {
+    margin: 8em auto 0em auto !important;
+	width: 3em;
+	height: 3em;
+}
+
+.arrowNavUp {
+	margin: 1em auto 0em auto;
+	width: 3em;
+	height: 3em;
+}
+
+.fa-angle-up {
+	margin:-5px;
+}
+
+#arrowNav a:link, #arrowNav a:visited {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+	width: 3em;
+	height: 3em;
+	border: 2px solid #fff;
+	border-radius: 50%;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+#arrowNav a:hover, #arrowNav a:active {
+    display: block;
+    background-color: #fff;
+    color: #050511;
+	width: 3em;
+	height: 3em;
+	border: 2px solid #fff;
+	border-radius: 50%;
+    text-decoration: none;
+    transition-delay: -0.5s;
+    -webkit-transition-delay: -0.5s;
+    -moz-transition-delay: -0.5s;
+    -o-transition-delay: -0.5s;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+
 .bluetext {
 	color: dodgerblue !important;
 }
@@ -280,7 +330,7 @@ h4 a:hover, h4 a:active {
 
 footer {
 	background-color: #050511 !important;
-	height: 10em;
+	height: 14em;
 }
 
 footer .row {
