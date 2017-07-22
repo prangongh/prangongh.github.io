@@ -169,9 +169,29 @@ h4 a:hover, h4 a:active {
 }
 
 .arrowNavDown {
-    margin: 8em auto 0em auto !important;
+    margin: 11em auto 0em auto !important;
 	width: 3em;
 	height: 3em;
+}
+
+.arrowNavDown i {
+	animation: MoveUpDown 1s infinite;
+    -webkit-animation: MoveUpDown 1s infinite;
+    -moz-animation: MoveUpDown 1s infinite;
+}
+
+@keyframes MoveUpDown {
+	25% {
+		transform: translatey(-1.5px);
+	}
+
+	50% {
+		transform: translatey(0px);
+	}
+
+	75% {
+		transform: translatey(1.5px);
+	}
 }
 
 .arrowNavUp {
