@@ -169,7 +169,7 @@ h4 a:hover, h4 a:active {
 }
 
 .arrowNavDown {
-    margin: 11em auto 0em auto !important;
+    margin: 9em auto 2em auto !important;
 	width: 3em;
 	height: 3em;
 }
@@ -255,25 +255,38 @@ h4 a:hover, h4 a:active {
 	margin-top: 40px;
 }
 
-.stuy a:link, .stuy a:visited {
-	color: orange !important;
+.site-link a:link, .site-link a:visited,
+.site-link a:hover, .site-link a:active {
+	color: lightsteelblue !important;
 }
 
-.stuy a:hover, .stuy a:active {
-	color: white !important;
+.skill {
+	margin: 0px auto !important;
+    list-style-type: none;
+	text-align: center !important; 
 }
 
-.stony a:link, .stony a:visited {
-	color: dodgerblue !important;
+.left-col {
+    float: left;
+    width:25%;
 }
 
-.stony a:hover, .stony a:active {
-	color: white !important;
+.center-col {
+    float: left;
+    width: 50%;
+}
+
+.right-col {
+    float: left;
+    width: 25%;
 }
 
 .skill i {
-	margin: 0px 0.5em;
 	font-size: 5em;
+}
+
+.skill p {
+	font-size: 18px !important;
 }
 
 .social_media {
@@ -328,7 +341,7 @@ h4 a:hover, h4 a:active {
 	background: #0c0c17;
 	padding-top: 70px;
 	padding-bottom: 70px;
-	text-align: center
+	text-align: center;
 }
 
 #f h3 {
@@ -525,5 +538,4 @@ footer p {
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
-
 
