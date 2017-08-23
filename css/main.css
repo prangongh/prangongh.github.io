@@ -12,8 +12,7 @@
 }
 
 body {
-	background: url("../img/header-bg.jpg");
-  	background-color: #050511;
+  	background-color: #0c0c17;
 
 	font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -26,7 +25,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
     font-weight: 300;
     color: #fff;
 }
@@ -84,9 +83,81 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {
+/* Navigation */
+
+.navbar {
+	background: #050511;
+	height: 7em;
+}
+
+.navbar .navbar-header {
 	margin-top: -0.5em;
-	padding-top: 2em;
+	padding-left: 12em;
+}
+
+.navbar .navbar-header h5 {
+	opacity: 0.8;
+	display: block;
+	padding: 15px 10px;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Poiret One', sans-serif !important;
+	font-size: 36px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-header h5:hover {
+	opacity: 1 !important;
+}
+
+.navbar ul {
+	padding-top: 2.3em;
+	padding-right: 10em;	
+}
+
+.navbar ul li {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.navbar ul li a:link, .navbar ul li a:visited {
+	display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+	background-color: #050511 !important;
+    color: #fff;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.navbar ul li a:hover, .navbar ul li a:active {
+	display: block;
+    background-color: #fff !important;
+    color: #050511 !important;
+    text-decoration: none;
+    transition-delay: -0.5s;
+    -webkit-transition-delay: -0.5s;
+    -moz-transition-delay: -0.5s;
+    -o-transition-delay: -0.5s;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+
+/* Landing Page */
+
+#headerwrap {
+	background: url("../img/header-bg.jpg");
+  	background-color: #050511;
+	margin-top: -0.5em;
+	padding-top: 4em;
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
@@ -125,7 +196,7 @@ a:after {
 
 #headerwrap h3 {
 	color: white;
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: 100;
     font-family: 'Lato', sans-serif;
 	letter-spacing: 0.15em;
@@ -143,8 +214,9 @@ h4 a:link, h4 a:visited {
     display: block;
     text-decoration: none;
     padding: 10px 20px;
-    border: 1px solid #fff;
+	background-color: #0c0c17;
     color: #fff;
+	border: 1px solid #fff;
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -155,8 +227,8 @@ h4 a:link, h4 a:visited {
 h4 a:hover, h4 a:active {
     display: block;
     background-color: #fff;
-    border: 1px solid #fff;
     color: #050511;
+	border: 1px solid #fff;
     text-decoration: none;
     transition-delay: -0.5s;
     -webkit-transition-delay: -0.5s;
@@ -255,9 +327,12 @@ h4 a:hover, h4 a:active {
 	margin-top: 40px;
 }
 
-.site-link a:link, .site-link a:visited,
+.site-link a:link, .site-link a:visited {
+	color: #ff0000 !important;
+}
+
 .site-link a:hover, .site-link a:active {
-	color: lightsteelblue !important;
+	color: #ff4c4c !important; 
 }
 
 .skill {
@@ -335,7 +410,7 @@ h4 a:hover, h4 a:active {
     -o-transition-duration: 1s;
 }
 
-/* Footer Wrap */
+/* Standard Section */
 
 #f {
 	background: #0c0c17;
@@ -366,9 +441,36 @@ h4 a:hover, h4 a:active {
 	text-align: center;
 }
 
+/* Quotes Section */
+
+.quote1 {
+	background: url("../img/quote1.jpg") !important;
+	padding-top: 60px !important;
+	padding-bottom: 60px !important; 
+}
+
+.quote1 h3 {
+	font-size: 30px !important;
+}
+
+.quote1 h5 {
+	padding: 0.5em 0em 0em 0em;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px; 
+}
+
+/* Contact Section */
+
+#social_main p {
+	font-size: 16px;
+}
+
+/* Footer */
+
 footer {
 	background-color: #050511 !important;
-	height: 14em;
+	height: 15em;
 }
 
 footer .row {
@@ -379,7 +481,6 @@ footer p {
 	font-size: 16px !important;
 	font-family: 'Lato', sans-serif;
 }
-
 
 /* MENU CONF*/
 
@@ -539,3 +640,27 @@ footer p {
 			transition: all .1s ease-in-out;
 }
 
+
+/* @media Rules */
+
+@media screen and (max-width: 800px) {
+    .navbar .navbar-header {
+		padding-left: 6em;
+	}
+
+	.navbar ul {
+		padding-right: 5em;
+	}
+}
+
+@media screen and (max-width: 770px) {
+    .navbar {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 771px) {
+	.menu, .menu-wrap {
+		display: none !important;
+	}
+}
