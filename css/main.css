@@ -12,7 +12,7 @@
 }
 
 body {
-  	background-color: #0c0c17;
+  	background-color: #101020;
 
 	font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -214,7 +214,7 @@ h4 a:link, h4 a:visited {
     display: block;
     text-decoration: none;
     padding: 10px 20px;
-	background-color: #0c0c17;
+	background-color: #101020;
     color: #fff;
 	border: 1px solid #fff;
     transition-property: all;
@@ -282,8 +282,6 @@ h4 a:hover, h4 a:active {
     color: #fff;
 	width: 3em;
 	height: 3em;
-	border: 2px solid #fff;
-	border-radius: 50%;
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -293,12 +291,9 @@ h4 a:hover, h4 a:active {
 
 #arrowNav a:hover, #arrowNav a:active {
     display: block;
-    background-color: #fff;
-    color: #050511;
+    color: dodgerblue;
 	width: 3em;
 	height: 3em;
-	border: 2px solid #fff;
-	border-radius: 50%;
     text-decoration: none;
     transition-delay: -0.5s;
     -webkit-transition-delay: -0.5s;
@@ -417,7 +412,7 @@ h4 a:hover, h4 a:active {
 /* Standard Section */
 
 #f {
-	background: #0c0c17;
+	background: #101020;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
