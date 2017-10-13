@@ -1,3 +1,13 @@
+<!-- *********************************************
+         _   _              _   _                   _
+        | | | | ___ _   _  | |_| |__   ___ _ __ ___| |
+        | |_| |/ _ \ | | | | __| '_ \ / _ \ '__/ _ \ |
+        |  _  |  __/ |_| | | |_| | | |  __/ | |  __/_|
+        |_| |_|\___|\__, |  \__|_| |_|\___|_|  \___(_)
+                    |___/
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -5,10 +15,10 @@
 		<!-- Basic Meta Info -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Hello, I'm Prangon! I am an aspiring Computer Engineer and Web Developer.">
+		<meta name="description" content="Hello, I'm Prangon! I am an aspiring product manager, web developer and a computer engineering student at Stony Brook University in New York.">
 		<meta name="author" content="Prangon Ghose">
 
-		<title>Prangon Ghose</title>
+		<title>Prangon Ghose | Aspiring Product Manager</title>
 
 		<!--Icon-->
 		<link rel="icon" type="image/jpeg" href="img/icon.JPG">
@@ -31,6 +41,7 @@
 		
 		<!--Google Fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Poiret+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
 		<!-- Bootstrap for Navigation -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -51,6 +62,8 @@
 					<li class="active"><a data-scroll href="#home">Home</a></li>
 					<li><a data-scroll href="#about">About</a></li>
 					<li><a data-scroll href="#skills">Skills</a></li>
+					<li><a data-scroll href="#projects">Portfolio</a></li>
+					<li><a data-scroll href="#reads">Reads</a></li>
 					<li><a data-scroll href="#contact">Contact</a></li>
 				</ul>
 			</div>
@@ -66,6 +79,8 @@
 				<a href="#home" data-scroll>Home</a>
 				<a href="#about" data-scroll>About</a>
 				<a href="#skills" data-scroll>Skills</a>
+				<a href="#projects" data-scroll>Portfolio</a>
+				<a href="#reads" data-scroll>Reads</a>
 				<a href="#contact" data-scroll>Contact</a>
 
 				<a href="https://github.com/holyrouge" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
@@ -83,13 +98,11 @@
 				<div class="container">
 					<br>
 					<div class="row">
-						<h1><span class="bluetext">Prangon</span> Ghose</h1>
+						<h1>Hi, I'm Prangon</h1>
 
 						<br>
 
-						<hr>
-
-						<h3>Computer <span class="ojtext">Engineer</span> | Web <span class="ojtext">Developer</span> | History <span class="ojtext">Nerd</span></h3>
+						<h3>Aspiring Product Manager & Web Developer</h3>
 
 						<div id="arrowNav" class="arrowNavDown"><a href="#about" data-scroll><i class="fa fa-3x fa-angle-down" aria-hidden="true"></i></a></div>
 
@@ -99,10 +112,10 @@
 			
 		<!-- ========== ABOUT SECTION ========== -->
 		<section id="about" name="about"></section>
-			<article id="f">
+			<article id="f" class="about">
 				<div class="container">
 					<div class="row">
-						<h3>ABOUT <span class="bluetext">ME</span></h3>
+						<h3>A LITTLE BIT ABOUT <span class="boldtext">ME</span></h3>
 						<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 
 						<!-- INTRO INFORMATION-->
@@ -111,22 +124,22 @@
 
 							<br>
 
-							<p>Hi! I'm <span class="bluetext">Prangon Ghose</span>, an aspiring <span class="ojtext">Computer Engineer</span> and a passionate <span class="ojtext">Web Developer</span> in New York City.</p>
-							
-							<p>Bringing <span class="bluetext">technology and people</span> together is my goal. Whether it's a beautifully crafted website or a user-friendly program, I am always excited about giving my <span class="ojtext">110%</span> to every project I work on.</p>
+							<p>
+								<span class="boldtext">I'm a first year student at <span class="site-link"><a href="http://www.stonybrook.edu/" target="_blank">Stony Brook University</a></span></span> in New York studying Computer Engineering.
+								I have experience developing and designing everything from simple websites to innovative web applications. I strive to create software and hardware that not only functions perfectly, but also provides the user with the best experience possible.
+							</p>
 
-							<p>I am pursuing my passion for creating captivating and innovative products at <span class="site-link"><a href="http://www.stonybrook.edu/" target="_blank">Stony Brook University</a></span> as a <span class="bluetext">Computer Engineering</span> major.</p>
+							<p>
+								I believe that the key to developing the best software is a strong understanding of the hardware that the programs will be running on. Only then can one truly create pixel-perfect software that provides great experiences to every user.
+							</p>
 
-							<p>In the past, I've organized multiple hackathons, led a program to educate high school students about professional skills and managed various logistics teams.</p>
+							<p>
+								<span class="boldtext">When I am not in front of a screen</span>, I am probably taking a walk on NYC's busy streets, eating ice-cream or poring over a history book.
+							</p>
 
-							<p>In my free time, I like to try out new CSS tricks, explore New York City and learn about military history.</p>
+							<p>Check out my <span class="boldtext">r&eacute;sum&eacute;</span> to learn more about me!
 
-							<p>Grab a copy of my <span class="ojtext">r&eacute;sum&eacute;</span> to learn more!
-
-							<br>
-
-							<h4><a class="resume" href="resume.pdf" target="_blank">R&Eacute;SUM&Eacute;</a></h4>
-
+							<h4><a class="h4button" href="resume.pdf" target="_blank">Grab A Copy</a></h4>						
 						</div>								
 					</div>
 				</div><!-- /container -->
@@ -135,28 +148,40 @@
 
 		<!-- ========== SKILLS SECTION ========== -->
 		<section id="skills" name="skills"></section>
-			<div id="f">
+			<div id="f" class="skills">
 				<div class="container">
 					<div class="row">
-						<h3>THIS IS WHAT I CAN <span class="bluetext">DO</span></h3>
+						<h3>This Is What I Can <span class="boldtext">DO</span></h3>
 						<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 							
 						<div class="col-lg-6 col-lg-offset-3">
 
 							<div class="skill">
 									<figure class="left-col">
-										<i class="devicon-html5-plain ojtext"></i>
+										<i class="devicon-html5-plain colored"></i>
 										<figcaption><p>HTML</p></figcaption>
 									</figure>
 
 									<figure class="center-col">
-										<i class="devicon-css3-plain bluetext"></i>
+										<i class="devicon-css3-plain colored"></i>
 										<figcaption><p>CSS</p></figcaption>
 									</figure>
 
 									<figure class="right-col">
-										<i class="devicon-javascript-plain ojtext"></i>
+										<i class="devicon-javascript-plain colored"></i>
 										<figcaption><p>JavaScript</p></figcaption>
+									</figure>
+							</div>
+
+							<div class="skill">
+									<figure class="left-col">
+										<i class="devicon-python-plain colored"></i>
+										<figcaption><p>Python</p></figcaption>
+									</figure>
+
+									<figure class="center-col">
+										<i class="devicon-cplusplus-plain colored"></i>
+										<figcaption><p>C++</p></figcaption>
 									</figure>
 							</div>
 						</div>
@@ -164,29 +189,180 @@
 				</div>
 			</div>
 
-		<!-- ========== QUOTES SECTION ========== -->
-			<article id="f" class="quote1">
+		<!--<!-- ========== EXPERIENCE SECTION ======
+		<section id="experience" name="experience"></section>
+			<div id="f" class="experience">
 				<div class="container">
 					<div class="row">
-						<h3><i>Technology is best when it brings people together.</i></h3>
-						<h5>- Matt Mullenweg -</h5>
-					</div>					
+						<h3>WHAT I HAVE <span class="boldtext">DONE</span></h3>
+						<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+						
+						<div class="col-lg-6 col-lg-offset-3">
+							
+
+							<p>Check out my <span class="boldtext">r&eacute;sum&eacute;</span>!
+
+							<br>
+
+							<h4><a class="resume" href="resume.pdf" target="_blank">Grab A Copy</a></h4>
+						</div>
 					</div>
-				</div><!-- /container -->
-			</article><!-- end of #f -->
+				</div>
+			</div>-->
+
+		<!-- ========== PROJECTS SECTION ====== -->
+		<section id="projects" name="projects"></section>
+			<div id="f" class="projects">
+				<div class="container">
+					<div class="row">
+						<h3>SOME OF MY <span class="boldtext">WORK</span></h3>
+						<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+						<p>Here are some of the awesome projects I have worked on over the past few years!</p>
+						<p>For a full list of my work, please visit my github page!</p>
+						<h4><a class="h4button" href="https://github.com/holyrouge" target="_blank">Click Here</a></h4>
+
+						<div class="col-lg-8 col-lg-offset-2">
+								<div class="project proj-left-col">
+									<a href="https://github.com/holyrouge/PySudoku" target="_blank">
+										<img src="img/project1.JPG" alt=""></img>
+									
+										<div class="img-desc">
+											<h5>PySudoku</h5>
+											<p>
+												PySudoku is a Sudoku web application that creates 
+												<br>
+												randomized Sudoku boards and validates solutions.
+												<br>
+												<br>
+												<b>Utilized: Flask, JavaScript, HTML, CSS</b>
+											</p>
+
+										</div>
+									</a>
+								</div>	
+
+								<div class="project proj-right-col">
+									<a href="https://github.com/holyrouge/Attack-Of-The-Humans" target="_blank">
+										<img src="img/project2.JPG" alt=""></img>
+									
+									<div class="img-desc">
+										<h5>Attack Of The Humans</h5>
+										<p>
+											Attack Of The Humans is a Space-Invaders inspired 
+											<br>
+											game made using the HTML canvas element.
+											<br>
+											<br>
+											<b>Utilized: JavaScript, HTML, CSS, Adobe Photoshop</b>
+										</p>
+
+									</div>
+									</a>
+								</div>
+						</div> <!--End of 1st Row-->
+
+
+						<!--<div class="col-lg-8 col-lg-offset-2">
+								<div class="project proj-left-col">
+									<a href="#" target="_blank">
+										<img src="img/icon.JPG" alt=""></img>
+									
+									<div class="img-desc">
+										
+										<p>
+												Description used
+										</p>
+
+									</div>
+									</a>
+								</div>	
+
+								<div class="project proj-right-col">
+									<a href="#" target="_blank">
+										<img src="img/icon.JPG" alt=""></img>
+									
+									<div class="img-desc">
+										
+										<p>
+												Description used
+										</p>
+										
+									</a>
+								</div>
+						</div>
+					</div>--> <!--End of 2nd Row-->
+				</div>
+			</div>
+		</div> <!--End of Projects-->
+		
+		<section id="reads" name="reads"></section>
+			<div id="f" class="reads">
+				<div class="container">
+					<div class="row">
+						<h3>MY RECENT <span class="boldtext">READS</span></h3>
+						<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+						
+						<p>In my free time, I like to pick up a good book and dive into its vibrant world.</p>
+
+						<p>Shown below are some of my recent reads!</p>
+
+						<div class="col-lg-8 col-lg-offset-2">
+								<div class="book reads-left-col">
+									<a href="http://www.newmediareader.com/book_samples/nmr-21-nelson.pdf" target="_blank">
+										<img src="img/book1.png" alt=""></img>
+									
+										<div class="img-desc">
+											<h5>Computer Lib/Dream Machines</h5>
+											<h6>By: Ted Nelson</h6>
+											<p>
+												Nelson truly captures the ideas behind
+												<br>
+												personal computing and argues for
+												<br>
+												the creation of user-focused products.
+											</p>
+
+										</div>
+									</a>
+								</div>
+
+								<div class="book reads-right-col">
+									<a href="https://www.amazon.com/Spare-Parts-Undocumented-Teenagers-American/dp/0374534985" target="_blank">
+										<img src="img/book2.jpg" alt=""></img>
+									
+										<div class="img-desc">
+											<h5>Spare Parts</h5>
+											<h6>By: Joshua Davis</h6>
+											<p>
+												Davis harnesses the power of a true story
+												<br>
+												to show that one can beat the worst
+												<br>
+												odds with determination and teamwork.
+											</p>
+
+										</div>
+									</a>
+								</div>
+							</div> <!--End of First Row-->
+					</div>
+				</div>
+			</div> <!--End of Reads-->
 
 		<!-- ========== CONTACT SECTION ========== -->
 		<section id="contact" name="contact"></section>
-			<div id="f">
+			<div id="f" class="contact">
 				<div class="container">
 					<div class="row">
-						<h3>CONTACT <span class="bluetext">ME</span></h3>
+						<h3>GET IN <span class="boldtext">TOUCH</span>!</h3>
 						<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 
 						<div class="col-lg-6 col-lg-offset-3">
 
 							<p>See anything that interested you? Want to get in touch?</p>
-							<p>Feel free to <span class="ojtext">email</span> me at <span id="email-link"><a href="mailto:pghose99@gmail.com" target="_top">pghose [at] gmail [dot] com</a></span>!</p>
+							<p>Feel free to email me!</p>
+
+							<h4><a class="h4button" href="mailto:pghose99@gmail.com">Say Hello</a></h4>
 
 						</div>
 					</div>
@@ -199,15 +375,16 @@
 			<footer id="f">
 				<div class="container">
 					<div class="row">
-						<div id="arrowNav" class="arrowNavUp"><a href="#home" data-scroll><i class="fa fa-3x fa-angle-up" aria-hidden="true"></i></a></div>
-
 						<ul class="social_media">
 								<li><a href="https://github.com/holyrouge" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></li>
 								<li><a href="https://www.linkedin.com/in/prangonghose" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
 								<li><a href="mailto:pghose99@gmail.com" target="_top"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
 						</ul>
 
-						<p>&copy; Copyright 2017 <span class="bluetext">Prangon Ghose</span>. All rights reserved.</p>
+						<div id="arrowNav" class="arrowNavUp"><a href="#home" data-scroll><i class="fa fa-2x fa-rocket" aria-hidden="true"></i></a>
+						<p id="arrowNavUp-hovertext">Beam me up, Scotty!</p></div>
+
+						<p class="copyright">&copy; Copyright 2017 <span class="bluetext">Prangon Ghose</span>. All rights reserved.</p>
 
 					</div>
 				</div>
