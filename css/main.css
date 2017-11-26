@@ -364,7 +364,7 @@ h4 a:hover, h4 a:active {
 }
 
 .site-link a:link, .site-link a:visited {
-	color: rgba(153, 0, 0, 0.85) !important;
+	color: #0000DD !important;
 }
 
 .site-link a:hover, .site-link a:active {
@@ -950,6 +950,10 @@ footer p {
 
 	.proj-right-col {
 		float: none;
+	}
+
+	.img-desc {
+		margin: 0px auto;
 	}
 
 	.reads-left-col {
