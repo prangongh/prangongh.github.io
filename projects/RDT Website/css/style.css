@@ -160,7 +160,7 @@
 /* 3. BUTTONS */
 
 	.btn-send{
-		background-color: #99000;
+		background-color: #990000;
 		border-radius: 0;
 		border: 0;
 		color: #fff;
@@ -539,24 +539,41 @@
 
 	}
 
-	.join_btn {
-		margin-top: 20px;
-		text-align: center;
-		background-color: #990000;
-		border-color: #990000;
-		border-radius: 0px;
-		width: 150px;
-		height: 40px;
+	h6 {
+		width: 13.6em;
+		color: #fff !important;
 	}
+	
 
-	.join_btn a {
-		color: #fff;
+	h6 a:link, h4 a:visited {
+		display: block;
 		text-decoration: none;
+		padding: 10px 20px;
+		background-color: #990000;
+		color: #fff;
+		border: 1px solid #990000;
+		letter-spacing: 2px;
+		transition-property: all;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-in-out;
+		transition-delay: 0s;
+		-webkit-transition: all 0.2s ease-in-out;
 	}
-
-	.join_btn a:hover, .join_btn:hover {
+	
+	h6 a:hover, h4 a:active {
+		display: block;
 		background-color: #d52027;
-		border-color: #990000;
+		color: #fff;
+		border: 1px solid #d52027;
+		text-decoration: none;
+		transition-delay: -0.5s;
+		-webkit-transition-delay: -0.5s;
+		-moz-transition-delay: -0.5s;
+		-o-transition-delay: -0.5s;
+		transition-duration: 1s;
+		-webkit-transition-duration: 1s;
+		-moz-transition-duration: 1s;
+		-o-transition-duration: 1s;
 	}
 	
 
@@ -980,8 +997,6 @@
 		font-size: 16px;
 		margin-right: 10px;
 	}
-
-	.contact-form{}
 
 	.contact-form input[type="text"],
 	.contact-form input[type="email"]{
