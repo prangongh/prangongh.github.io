@@ -540,18 +540,18 @@
 	}
 
 	h6 {
+		margin-top: 20px;
 		width: 13.6em;
 		color: #fff !important;
 	}
 	
 
-	h6 a:link, h4 a:visited {
+	h6 a:link, h6 a:visited {
 		display: block;
 		text-decoration: none;
 		padding: 10px 20px;
 		background-color: #990000;
 		color: #fff;
-		border: 1px solid #990000;
 		letter-spacing: 2px;
 		transition-property: all;
 		transition-duration: 0.2s;
@@ -560,11 +560,10 @@
 		-webkit-transition: all 0.2s ease-in-out;
 	}
 	
-	h6 a:hover, h4 a:active {
+	h6 a:hover, h6 a:active {
 		display: block;
 		background-color: #d52027;
 		color: #fff;
-		border: 1px solid #d52027;
 		text-decoration: none;
 		transition-delay: -0.5s;
 		-webkit-transition-delay: -0.5s;
