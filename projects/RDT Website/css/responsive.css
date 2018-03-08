@@ -11,20 +11,20 @@
 	}
 
 	.carousel-caption h1 {
-		font-size:26px;
-		margin-bottom:0;
-		line-height:27px;
-		letter-spacing:2px;
-		font-weight:100;
+		font-size: 26px;
+		margin-bottom: 0;
+		line-height: 27px;
+		letter-spacing: 2px;
+		font-weight: 100;
 	}
 
 	.carousel-caption h2 {
-		font-size:51px;
-		font-weight:600;
-		margin-top:0px;
-		text-transform:lowercase;
-		letter-spacing:2px;
-		margin-bottom:20px;
+		font-size: 51px;
+		font-weight: 600;
+		margin-top: 0px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin-bottom: 20px;
 	}
 	#our-team, #pricing, #our-works, #services, #contact{
 		padding-top: 110px;
@@ -57,7 +57,7 @@
 		font-size:51px;
 		font-weight:600;
 		margin-top:0px;
-		text-transform:lowercase;
+		text-transform: uppercase;
 		letter-spacing:2px;
 		margin-bottom:20px;
 	}
@@ -122,12 +122,12 @@
 	}
 
 	.carousel-caption h2 {
-		font-size:31px;
-		font-weight:600;
-		margin-top:0px;
-		text-transform:lowercase;
-		letter-spacing:2px;
-		margin-bottom:20px;
+		font-size: 31px;
+		font-weight: 600;
+		margin-top: 0px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin-bottom: 20px;
 	}
 
 	.scroll-up{
