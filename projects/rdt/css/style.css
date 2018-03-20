@@ -519,8 +519,11 @@
 		padding-bottom: 30px;
 	}
 
-	.template p {
-
+	.calendar iframe {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
 	}
 
 /* 7. About Us */
