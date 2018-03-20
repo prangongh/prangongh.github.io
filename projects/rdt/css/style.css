@@ -159,12 +159,17 @@
 
 /* 3. BUTTONS */
 
-	.btn-send{
+	.btn-send {
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 12px;
+		letter-spacing: 2px;
 		background-color: #990000;
 		border-radius: 0;
 		border: 0;
 		color: #fff;
-		padding: 8px 14px;
+		padding: 10px 20px;
 		-webkit-transition: all 0.2s ease-in-out;
 		-moz-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
@@ -172,12 +177,12 @@
 		transition: all 0.2s ease-in-out;
 	}
 
-	.btn-send:hover{
-		background-color: #000;
+	.btn-send:hover {
+		background-color: #d52027;
 		color: #fff;
 	}
 
-	.btn-readmore{
+	.btn-readmore {
 		background-color: #990000;
 		border-radius: 0;
 		border: 0;
@@ -192,7 +197,7 @@
 		transition: all 0.2s ease-in-out;
 	}
 
-	.btn-readmore:hover{
+	.btn-readmore:hover {
 		background-color: #000;
 		color: #fff;	
 	}
@@ -776,18 +781,18 @@
 		background-color: #ffffff;
 	}
 
-	#about-us .about-us{
+	#about-us .about-us {
 		padding-left: 15%;
 		padding-right: 15%;
 		padding-top: 15%;
 	}
 
-	#about-us .about-us h4{
+	#about-us .about-us h4 {
 		margin-top: 0;
 		margin-bottom: 30px;
 	}
 
-	#about-us .about-us .btn-send{
+	#about-us .about-us .btn-send {
 		margin-top: 30px;
 	}
 
@@ -842,7 +847,6 @@
 	#our-team {
 		padding-top: 80px;
 		padding-bottom: 80px;
-		color: #fff;
 	}
 
 	.team-member {
@@ -855,6 +859,7 @@
 
 	.member-info {
 		background-color: #990000;
+		color: #fff;
 		padding: 15px;
 	}
 
