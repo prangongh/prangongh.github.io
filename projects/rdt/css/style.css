@@ -54,7 +54,8 @@ h3 {
 }
 
 h4 {
-  font-size: 36px;
+  font-size: 34px;
+  font-weight: 700;
 }
 
 h5, h6 {
@@ -952,6 +953,10 @@ a:hover, a:focus, a:active {
   border: 1px solid #990000;
 }
 
+.section-template {
+  margin-top: -8em;
+}
+
 .probootstrap-section {
   padding: 7em 0;
   position: relative;
@@ -988,6 +993,27 @@ a:hover, a:focus, a:active {
 
 .probootstrap-section.probootstrap-bg-white {
   background: #ffffff;
+}
+
+.calendar {
+  margin-bottom: 100px;
+}
+
+.calendar iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.subsystems-section h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.subsystems-section h4 .fa {
+  margin-right: 10px !important;
 }
 
 @media screen and (max-width: 768px) {
