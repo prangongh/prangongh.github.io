@@ -84,6 +84,7 @@ a:hover, a:focus, a:active {
   line-height: 64px;
   color: #fff;
   font-weight: 700;
+  text-shadow: 2px 2px 2px #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -431,7 +432,7 @@ a:hover, a:focus, a:active {
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #990000;
+  background: #d52027;
   border-radius: 0;
   -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
@@ -540,7 +541,7 @@ a:hover, a:focus, a:active {
   top: -20px;
   left: 40px;
   border-color: rgba(73, 210, 146, 0);
-  border-bottom-color: #990000;
+  border-bottom-color: #d52027;
   border-width: 10px;
   margin-left: -10px;
 }
@@ -955,6 +956,7 @@ a:hover, a:focus, a:active {
 
 .section-template {
   margin-top: -8em;
+  margin-bottom: -2em;
 }
 
 .probootstrap-section {
@@ -980,7 +982,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
-  background: #d52027;
+  background: #990000;
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
@@ -1039,7 +1041,7 @@ a:hover, a:focus, a:active {
 }
 
 .section-heading {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .section-heading h1 {
@@ -1341,6 +1343,10 @@ a:hover, a:focus, a:active {
   padding-left: 0;
 }
 
+.probootstrap-footer-social i:hover, .probootstrap-footer-social i:active {
+  color: #000;
+}
+
 .probootstrap-teacher {
   padding: 20px;
   border: 1px solid #e6e5e5;
@@ -1389,6 +1395,11 @@ a:hover, a:focus, a:active {
 .probootstrap-teacher .probootstrap-footer-social li.google-plus a {
   color: #d52027;
 }
+
+.probootstrap-teacher .probootstrap-footer-social li.linkedin a {
+  color: #d52027;
+}
+
 
 .probootstrap-teacher:focus, .probootstrap-teacher:hover {
   top: -10px;
