@@ -954,8 +954,23 @@ a:hover, a:focus, a:active {
   border: 1px solid #990000;
 }
 
+.overflow {
+  height: 100%;
+  overflow: hidden;
+}
+
+.homepage {
+  height: 100%;
+  background-image: url("../img/slider_1.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: none;
+}
+
 .section-template {
-  margin-top: -8em;
+  margin-top: -4em;
   margin-bottom: -2em;
 }
 
@@ -2612,11 +2627,14 @@ a:hover, a:focus, a:active {
 
 /* Flexslider override style */
 .slider-height, .flexslider, .flexslider .slides > li {
-  height: 100%;
+  height: 100%; 
 }
 
 @media screen and (max-width: 480px) {
   .slider-height, .flexslider, .flexslider .slides > li {
+    height: 100%;
+  }
+  .flexslider {
     height: 100%;
   }
 }
@@ -2624,7 +2642,7 @@ a:hover, a:focus, a:active {
 .flexslider {
   position: relative;
   z-index: 2;
-  background: none;
+  background: none !important;
   border: none;
   margin: 0 0 0;
   height: 100%;
@@ -2657,7 +2675,7 @@ a:hover, a:focus, a:active {
 
 .flexslider .slides > li.overlay:before {
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0);
   position: absolute;
   top: 0;
   left: 0;
