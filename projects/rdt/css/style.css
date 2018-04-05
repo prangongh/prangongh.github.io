@@ -460,8 +460,7 @@ a:hover, a:focus, a:active {
   padding-bottom: 0 !important;
   font-size: 30px;
   text-transform: uppercase;
-  background: url(../img/logo.png) no-repeat left 100%;
-  top: 24px;
+  top: 5px;
   position: relative;
   width: 160px;
   height: 43px;
@@ -470,16 +469,30 @@ a:hover, a:focus, a:active {
   transition: .2s all;
 }
 
+.probootstrap-navbar .navbar-brand img {
+  width: 50%;
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .probootstrap-navbar .navbar-brand {
     top: 5px !important;
     background-position: left 100%;
+  }
+
+  .probootstrap-navbar .navbar-brand img {
+    width: 25%;
+    margin-left: 20px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .probootstrap-navbar .navbar-brand {
     top: 6px !important;
+  }
+
+  .probootstrap-navbar .navbar-brand img {
+    width: 25%;
   }
 }
 
@@ -488,8 +501,6 @@ a:hover, a:focus, a:active {
     position: relative;
     width: 160px;
     height: 43px;
-    background: url(../img/logo@2x.png) no-repeat left 100%;
-    background-size: cover;
   }
 }
 
@@ -961,7 +972,7 @@ a:hover, a:focus, a:active {
 
 .homepage {
   height: 100%;
-  background-image: url("../img/slider_1.jpg");
+  background-image: url("../img/home.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -1430,6 +1441,8 @@ a:hover, a:focus, a:active {
 .probootstrap-counter-wrap {
   float: left;
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .probootstrap-counter-wrap .probootstrap-icon,
