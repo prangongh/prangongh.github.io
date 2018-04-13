@@ -912,6 +912,10 @@ footer p {
 	.navbar ul {
 		padding-right: 3em;
 	}
+
+	#arrowNavUp-hovertext {
+		left: 43%;
+	}
 }
 
 @media screen and (max-width: 770px) {
@@ -962,5 +966,21 @@ footer p {
 
 	.reads-right-col {
 		float: none;
+	}
+
+	#arrowNavUp-hovertext {
+		left: 37%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#arrowNavUp-hovertext {
+		left: 35%;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	#arrowNavUp-hovertext {
+		left: 32%;
 	}
 }
