@@ -460,7 +460,7 @@ a:hover, a:focus, a:active {
   padding-bottom: 0 !important;
   font-size: 30px;
   text-transform: uppercase;
-  top: 5px;
+  top: 8px;
   position: relative;
   width: 160px;
   height: 43px;
@@ -470,7 +470,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-brand img {
-  width: 70%;
+  width: 60%;
   margin-left: 10px;
 }
 
