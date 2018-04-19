@@ -84,7 +84,7 @@ a:hover, a:focus, a:active {
   line-height: 64px;
   color: #fff;
   font-weight: 700;
-  text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 4px 2px #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -317,8 +317,8 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .parent-nav-link-padding, .probootstrap-navbar .navbar-brand, .probootstrap-navbar .navbar-nav > li > a {
-  padding-top: 34px;
-  padding-bottom: 34px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 0;
   padding-right: 0;
   margin-left: 15px;
@@ -460,7 +460,7 @@ a:hover, a:focus, a:active {
   padding-bottom: 0 !important;
   font-size: 30px;
   text-transform: uppercase;
-  top: 8px;
+  top: -5px;
   position: relative;
   width: 160px;
   height: 43px;
