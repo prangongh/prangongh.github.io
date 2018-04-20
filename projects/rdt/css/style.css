@@ -1023,6 +1023,67 @@ a:hover, a:focus, a:active {
   background: #ffffff;
 }
 
+#sponsors_list {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sponsors_list .row {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#sponsors_list img {
+  margin-bottom: 1em;
+  margin-left: 1em;
+  height: 100%;
+}
+
+.sponsors1 img {
+  width: 25em;
+  display: inline-block;
+}
+
+.sponsors2 img {
+  width: 15em;
+  display: inline-block;
+}
+
+.sponsors3 img {
+  width: 10em;
+  display: inline-block;
+
+}
+
+@media screen and (max-width: 768px) {
+  .sponsors1 img {
+    width: 20em;
+  }
+  
+  .sponsors2 img {
+    width: 10em;
+  }
+  
+  .sponsors3 img {
+    width: 8em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sponsors1 img {
+    width: 15em;
+  }
+  
+  .sponsors2 img {
+    width: 8em;
+  }
+  
+  .sponsors3 img {
+    width: 6em;
+  }
+}
+
 .calendar {
   margin-bottom: 100px;
 }
