@@ -7,13 +7,12 @@
 }
 
 ::selection {
-  background-color: #d52027;
+  background-color: #dd4c52;
 }   
 
 ::-moz-selection {
-background-color: #d52027;
+background-color: #dd4c52;
 }
-
 
 html {
   overflow-x: hidden;
