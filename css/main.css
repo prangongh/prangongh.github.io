@@ -357,6 +357,11 @@ h4 a:hover, h4 a:active {
 
 .h4button {
 	margin-top: 20px;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
 }
 
 .site-link a {
