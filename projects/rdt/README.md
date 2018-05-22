@@ -1,1 +1,1 @@
-# Stony Brook Robot Design Team Website
+# Stony Brook Robotics Team Website
