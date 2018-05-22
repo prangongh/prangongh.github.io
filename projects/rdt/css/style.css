@@ -11,7 +11,7 @@
 }   
 
 ::-moz-selection {
-background-color: #dd4c52;
+  background-color: #dd4c52;
 }
 
 html {
@@ -84,6 +84,7 @@ a:hover, a:focus, a:active {
   color: #fff;
   font-weight: 700;
   text-shadow: 2px 4px 2px #000;
+  letter-spacing: 0.2em;
 }
 
 @media screen and (max-width: 768px) {
@@ -674,10 +675,106 @@ a:hover, a:focus, a:active {
   margin-top: -1px;
 }
 
+.arrowNavDown {
+  margin: 9em auto 2em auto !important;
+  width: 3em;
+  height: 3em;
+}
+
+.arrowNavDown i {
+  animation: MoveUpDown 1s infinite;
+  -webkit-animation: MoveUpDown 1s infinite;
+  -moz-animation: MoveUpDown 1s infinite;
+}
+
+@keyframes MoveUpDown {
+25% {
+  transform: translatey(-1.5px);
+}
+
+50% {
+  transform: translatey(0px);
+}
+
+75% {
+  transform: translatey(1.5px);
+}
+}
+
+.arrowNavUp a {
+  margin: 1em auto 0em auto;
+  width: 3em;
+  height: 3em;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#arrowNavUp-hovertext {
+  display: none;
+
+  position: absolute;
+  left: 45.5%;
+  color: #fff;
+  font-size: 12px !important;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.arrowNavUp a:hover + #arrowNavUp-hovertext {
+  display: block !important;
+
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+.fa-angle-up {
+  margin:-5px;
+}
+
+#arrowNav a:link, #arrowNav a:visited {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  width: 3em;
+  height: 3em;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+#arrowNav a:hover, #arrowNav a:active {
+  display: block;
+  color: #d52027;
+  width: 3em;
+  height: 3em;
+  text-decoration: none;
+  transition-delay: -0.5s;
+  -webkit-transition-delay: -0.5s;
+  -moz-transition-delay: -0.5s;
+  -o-transition-delay: -0.5s;
+  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+}
+
 @media screen and (max-width: 480px) {
   .container-fluid .dropdown-submenu:hover > .dropdown-menu {
     display: block;
   }
+}
+
+.about-us {
+  margin-bottom: -25px !important;
 }
 
 .probootstrap-hero {
@@ -966,17 +1063,17 @@ a:hover, a:focus, a:active {
 
 .overflow {
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .homepage {
   height: 100%;
-  background-image: url("../img/home.jpg");
-
+/*  background-image: url("../img/home.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: none;
+/* box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4); */
 }
 
 .section-template {
@@ -2715,13 +2812,15 @@ a:hover, a:focus, a:active {
 .flexslider {
   position: relative;
   z-index: 2;
-  background: none !important;
   border: none;
   margin: 0 0 0;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: none;
+  background-image: url("../img/home.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
 }
 
 .flexslider .probootstrap-subheading {
