@@ -2820,7 +2820,7 @@ a:hover, a:focus, a:active {
   background-size: cover;
   overflow: none;
   background-image: url("../img/home.jpg");
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6);
 }
 
 .flexslider .probootstrap-subheading {
@@ -2828,8 +2828,8 @@ a:hover, a:focus, a:active {
 }
 
 .flexslider .probootstrap-slider-text {
-  margin-top: 180px;
-  margin-bottom: 200px;
+  margin-top: 24%;
+  margin-bottom: 32%;
 }
 
 @media screen and (max-width: 480px) {
