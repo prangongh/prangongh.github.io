@@ -777,6 +777,12 @@ a:hover, a:focus, a:active {
   margin-bottom: -25px !important;
 }
 
+@media only screen and (max-width: 800px) {
+  .about-us {
+    margin-bottom: 5px !important;
+  }
+}
+
 .probootstrap-hero {
   background-size: cover;
   background-position: center center;
