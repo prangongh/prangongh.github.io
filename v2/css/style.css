@@ -10,11 +10,11 @@ Colors:
 */
 
 ::selection {
-  background-color: orange;
+  background-color: silver;
 }   
 
 ::-moz-selection {
- background-color: orange;
+ background-color: silver;
 }
 
 body
@@ -295,9 +295,15 @@ footer {
 }
 
 #about .img-profile {
-  margin-top: 2em;
+  margin-top: 4em;
   height: 100%;
   width: 30em;
+}
+
+#about strong a {
+  color: #F7C409;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
 }
 
 #about .btn {
@@ -333,7 +339,7 @@ border-color: transparent;
 }
 
 #feature p {
-  color: #4d4d4d;
+  color: #191919;
 }
 
 #feature .btn {
@@ -583,6 +589,10 @@ footer a:hover {
 
   #about .section-title {
     padding-bottom: 12px;
+  }
+
+  #about .img-profile {
+    margin-top: 0.5em;
   }
 
   #feature .col-md-4 {
