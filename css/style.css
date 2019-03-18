@@ -4,7 +4,7 @@ Colors:
 
   Primary Colors:
     Orange-Yellow: #F7C409
-    White: #00000
+    White: #FFFFFF
     Dark Grey: #111112
 
 */
@@ -55,7 +55,7 @@ h3 {
 }
 
 p {
-  color: #e6e6e6;
+  color: #ffffff;
   letter-spacing: 0.8px;
   line-height: 28px;
 }
@@ -280,7 +280,6 @@ footer {
     border-color: transparent;
 }
 
-
 /* about section */
 #about h3 {
     margin-top: 0px;
@@ -306,6 +305,13 @@ footer {
   font-weight: 700;
 }
 
+#about ul.skills-list {
+  list-style-type: square;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
 #about .btn {
   background: transparent;
   border: 3px solid #F7C409;
@@ -328,11 +334,7 @@ border-color: transparent;
 }
 
 /* feature section */
-#feature {
-  background: #F7C409;
-}
-
-#feature .icon {
+#feature .media-left .icon {
   color: #ffffff;
   font-size: 42px;
   padding-right: 14px;
@@ -363,6 +365,73 @@ border-color: transparent;
   border-color: transparent;
 }
 
+/* projects section */
+.projects h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+
+.projects img {
+  width: 24em;
+  height: 24em;
+  margin-bottom: 1em;
+}
+
+.projects h3 {
+  color: #ffffff !important;
+  font-size: 1.6em;
+}
+
+.projects h4 {
+  color: #ffffff !important;
+  font-weight: 300;
+}
+
+.projects p {
+  color: #ffffff !important;
+}
+
+.projects strong a {
+  color: #F7C409;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+}
+
+.projects ul.skills-used-list {
+  list-style: none;
+  margin-top: 2em;
+  padding-left: 0;
+}
+
+.projects ul.skills-used-list li {
+  display: inline;
+  color: #000000;
+  background: #F7C409;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+.projects .fa {
+  border-radius: 100px;
+  color: #e6e6e6;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.projects .fa:hover {
+  background-color: #ffffff;
+  color: #111112;
+}
 
 
 /* contact section  */
@@ -449,9 +518,24 @@ footer a:hover {
   position: relative;
   bottom: 104px;
 }
+
 .svgcolor-light > path {
   fill: white;
   stroke: white;
+  stroke-width: 0;
+}
+
+.svgcolor-yellow {
+  /*position: absolute;
+  top: 0;
+  left: 0; */
+  position: relative;
+  bottom: 104px;
+}
+
+.svgcolor-yellow > path {
+  fill: #F7C409;
+  stroke: #F7C409;
   stroke-width: 0;
 }
 
@@ -576,6 +660,7 @@ footer a:hover {
   color: #111112;
 }
 
+
 /* Mobile Responsive */
 @media (max-width: 980px) {
 
@@ -597,6 +682,14 @@ footer a:hover {
 
   #feature .col-md-4 {
     padding-bottom: 32px;
+  }
+
+  .projects .col-md-4 {
+    padding-bottom: 40px !important;
+  }
+
+  .projects h3 {
+    font-size: 1.6em;
   }
 
 }

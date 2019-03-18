@@ -21,7 +21,6 @@ $(document).ready(function() {
     });
   });
 
-
    /* Back top
   -----------------------------------------------*/
     $(window).scroll(function() {
