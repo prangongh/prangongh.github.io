@@ -388,6 +388,12 @@ border-color: transparent;
   font-weight: 300;
 }
 
+/*
+.projects .row {
+  margin-bottom: 3em;
+}
+*/
+
 .projects p {
   color: #ffffff !important;
 }
