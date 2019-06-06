@@ -420,7 +420,7 @@ border-color: transparent;
   font-weight: 500;
 }
 
-.projects .fa {
+.projects .fab {
   border-radius: 100px;
   color: #e6e6e6;
   font-size: 24px;
@@ -434,7 +434,7 @@ border-color: transparent;
   margin-right: 10px;
 }
 
-.projects .fa:hover {
+.projects .fab:hover {
   background-color: #ffffff;
   color: #111112;
 }
