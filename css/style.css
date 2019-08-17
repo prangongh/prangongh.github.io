@@ -388,11 +388,11 @@ border-color: transparent;
   font-weight: 300;
 }
 
-/*
+
 .projects .row {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
-*/
+
 
 .projects p {
   color: #ffffff !important;
@@ -737,6 +737,10 @@ footer a:hover {
   width: 25px;
   height: 25px;
   line-height: 25px;
-}
+  }
+
+  .projects .row {
+    margin-bottom: 0em !important;
+  }
 
 }
