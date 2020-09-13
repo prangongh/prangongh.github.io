@@ -41,7 +41,7 @@ h1,h2,h3 {
 
 h1 {
   color: #fff;
-  font-size: 4.5rem;
+  font-size: 6rem;
   font-weight: 700;
 }
 
@@ -52,15 +52,15 @@ h2 {
 
 h3 {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 
 p {
   color: #ffffff;
   letter-spacing: 0.8px;
-  line-height: 28px;
-  font-size: 1rem;
+  line-height: 35px;
+  font-size: 1.2rem;
 }
 
 strong {
@@ -315,7 +315,7 @@ footer {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 #about .btn {
@@ -420,7 +420,7 @@ border-color: transparent;
   display: inline;
   color: #000000;
   background: #F7C409;
-  font-size: 14px;
+  font-size: 1.2rem;
   padding: 5px 10px;
   margin-right: 5px;
   font-weight: 500;
@@ -689,7 +689,7 @@ footer a:hover {
 @media (max-width: 980px) {
 
   h1 {
-    font-size: 2.4rem;
+    font-size: 4.5rem;
   }
 
   #home {
@@ -722,7 +722,7 @@ footer a:hover {
 @media (max-width: 768px) {
 
   h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   h2 {
@@ -730,7 +730,7 @@ footer a:hover {
   }
 
   h3 {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     line-height: 1.3rem;
   }
 
